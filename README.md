@@ -4,6 +4,10 @@ nwmViewer is an R Shiny application built to quickly view and analyze NOAA Natio
 
 Users can select their location, forecasting types and paramaters.
 
+## Documentation
+
+Further details and documentation can be found via the [nwm](https://mikejohnson51.github.io/NWM/) package. 
+
 ## Web application
 
 [nwmViewer](https://nwmviewer.shinyapps.io/view/)
@@ -33,8 +37,3 @@ launch_viewer()
 # Similar Projects
 
 * [FlowFinder](https://mikejohnson51.github.io/FlowFinder/)
-
-## Core Packages
-
-* [nwm](https://mikejohnson51.github.io/NWM/)
-* [R Shiny](https://www.rstudio.com/products/shiny/)

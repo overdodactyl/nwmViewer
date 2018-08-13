@@ -2,15 +2,19 @@
 
 nwmViewer is an R Shiny application built to quickly view and analyze NOAA National Water Model data.  
 
-Users can quickly choose their location, forecasting types and paramaters.
+Users can select their location, forecasting types and paramaters.
 
 ## Web application
 
 [nwmViewer](https://nwmviewer.shinyapps.io/view/)
 
+## Preview
+
+![preview](.github/preview.png)
+
 ## Installation
 
-In addition to the web application, you can run the application locally. You can install nwmViewer and its dependencies using the following commands:
+In addition to the web application, you can run the application locally. Use the following commands for installation:
 
 ```r
 install.packages("devtools")

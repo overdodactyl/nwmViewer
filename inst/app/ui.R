@@ -3,6 +3,8 @@ library(leaflet)
 library(AOI)
 library(RColorBrewer)
 library(nwm)
+library(rgdal)
+
 
 header <- dashboardHeader(
   title = "Gridded Data Viewer"

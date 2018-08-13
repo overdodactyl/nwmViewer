@@ -11,7 +11,8 @@ Depends:
     R (>= 3.0.0),
     nwm,
     leaflet,
-    AOI
+    AOI,
+    rgdal
 Imports:
     shiny (>= 1.0.4),
     RColorBrewer,

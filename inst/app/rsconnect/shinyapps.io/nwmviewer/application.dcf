@@ -1,0 +1,12 @@
+name: application
+title: application
+username:
+account: nwmviewer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 399032
+bundleId: 1531842
+url: https://nwmviewer.shinyapps.io/application/
+when: 1534130699.11236
+asMultiple: FALSE
+asStatic: FALSE

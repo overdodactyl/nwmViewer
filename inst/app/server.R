@@ -82,9 +82,11 @@ function(input, output, session) {
       
       files = nwm::getFilelist(config = input$forcast_input, type = as.character(input$type), date = date, t = as.numeric(input$t), f = as.numeric(input$f))
       
+      print(files)
+      
       AOI <- tryCatch(
         {
-           getAOI(clip = list(input$search, input$clip_size, input$clip_size)) %>% nwm::downloadNWM(files, param = input$param)
+          getAOI(clip = list(input$search, input$clip_size, input$clip_size)) %>% nwm::downloadNWM(files, param = input$param)
         },
         error=function(cond) {
           return(NULL)

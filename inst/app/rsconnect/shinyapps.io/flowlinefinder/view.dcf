@@ -1,0 +1,12 @@
+name: view
+title: view
+username:
+account: flowlinefinder
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 399035
+bundleId: 1531861
+url: https://flowlinefinder.shinyapps.io/view/
+when: 1534131195.95892
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,24 @@
+Package: nwmViewer
+Title: An easy and efficient method to view NOAA National Water Model Data
+Version: 0.1.0
+Authors@R: as.person(c(
+    "Pat Johnson <patjohns1216@gmail.com> [aut, cre]"
+  ))
+Description: An easy and efficient method to view NOAA National Water Model Data
+URL: https://github.com/overdodactyl/nwmViewer
+BugReports: https://github.com/overdodactyl/nwmViewer/issues
+Depends:
+    R (>= 3.0.0),
+    nwm,
+    leaflet,
+    AOI
+Imports:
+    shiny (>= 1.0.4),
+    RColorBrewer,
+    shinydashboard
+Suggests:
+    covr,
+    testthat
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 6.0.1

@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/144513935.svg)](https://zenodo.org/badge/latestdoi/144513935)
+
 # nwmViewer
 
 nwmViewer is an R Shiny application built to quickly view and analyze NOAA National Water Model data.  
